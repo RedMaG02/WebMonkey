@@ -1,0 +1,220 @@
+body{
+    background-color: pink;
+    background-image:url('nyancat4.gif');
+
+}
+.header{
+    font-size: 72px;
+    font-weight: 700;
+    width: fit-content + 20%;
+    text-shadow: 6px;
+    font-family: 'Comic Sans MS','Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    background-color: rgb(252,213,251);
+    height: fit-content;
+    margin-bottom: 30px;
+    background-image:url('nyan-cat-nyan.gif'),url('hello-kitty-hello.gif');
+    background-repeat: no-repeat, no-repeat;
+    background-size: 20%, 20%;
+    background-position: left, right;
+    
+}
+.task {
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: fit-content;
+    border-radius: 10px;
+}
+
+.task-header {
+    cursor: pointer;
+    font-size: 20PX;
+}
+
+.task-content {
+    display: none;
+}
+
+#shadowBox {
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.2);
+    /* Black w/opacity/see-through */
+    border: 3px solid;
+    
+}
+
+.rainbow {
+    text-align: center;
+    text-decoration: underline;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    letter-spacing: 5px;
+}
+.rainbow_text_animated {
+    background: linear-gradient(to right, #6666ff, #0099ff , #00ff00, #ff3399, #6666ff);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    animation: rainbow_animation 6s ease-in-out infinite;
+    background-size: 400% 100%;
+}
+
+@keyframes rainbow_animation {
+    0%,100% {
+        background-position: 0 0;
+    }
+
+    50% {
+        background-position: 100% 0;
+    }
+}
+
+  
+  .rainbow-bg{
+          animation: rainbow-bg 2.5s linear;
+          animation-iteration-count: infinite;
+  }
+  
+  
+  @keyframes rainbow-bg{
+          100%,0%{
+              background-color: rgb(254, 199, 199);
+          }
+          8%{
+              background-color: rgb(255, 222, 188);
+          }
+          16%{
+              background-color: rgb(255, 255, 185);
+          }
+          25%{
+              background-color: rgb(228, 255, 201);
+          }
+          33%{
+              background-color: rgb(214, 255, 214);
+          }
+          41%{
+              background-color: rgb(211, 255, 233);
+          }
+          50%{
+              background-color: rgb(208, 255, 255);
+          }
+          58%{
+              background-color: rgb(200, 228, 255);
+          }
+          66%{
+              background-color: rgb(199, 199, 253);
+          }
+          75%{
+              background-color: rgb(231, 207, 255);
+          }
+          83%{
+              background-color: rgb(255, 211, 255);
+          }
+          91%{
+              background-color: rgb(255, 213, 234);
+          }
+  }
+
+  .circle-container {
+    position: relative;
+    height: 300px;
+    width: 300px;
+    margin: 0 auto;
+  }
+  
+  .circle-wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: rotate 8s linear infinite;
+  }
+  
+  .circle {
+    display: block;
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    background-color: #0072c6;
+    text-align: center;
+    line-height: 60px;
+    font-size: 24px;
+    color: #fff;
+    text-decoration: none;
+    transition: transform 0.5s ease;
+    
+  }
+  
+
+  .circle:hover{
+    transform: scale(1.2);
+    background-color: #ff3399;
+  }
+  
+  
+  .circle-1 {
+    position: absolute;
+    background-image: url('github.jpg');
+    background-size: cover;
+    top: 0;
+    left: 0;
+    animation: rotate2 8s linear infinite;
+  }
+
+  
+  
+  .circle-2 {
+    position: absolute;
+    background-image: url('vk.png');
+    background-size: cover;
+    top: 0;
+    right: 0;
+    animation: rotate2 8s linear infinite;
+  }
+  
+  .circle-3 {
+    position: absolute;
+    background-image: url('telegram.jpg');
+    background-size: cover;
+    bottom: 0;
+    left: 0;
+    animation: rotate2 8s linear infinite;
+  }
+  
+  .circle-4 {
+    position: absolute;
+    background-image: url('yandex.png');
+    background-size: cover;
+    bottom: 0;
+    right: 0;
+    animation: rotate2 8s linear infinite;
+  }
+  
+  @keyframes rotate {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+  @keyframes rotate2 {
+    0% {
+        transform: rotate(0deg);
+      }
+      100% {
+        transform: rotate(-360deg);
+      }
+  }
+
+  /* Start https://www.cursors-4u.com */ * {cursor: url(https://cur.cursors-4u.net/nature/nat-11/nat1019.cur), auto !important;} /* End https://www.cursors-4u.com */
+  
+  
+  
+  
+  
+  
+ 
