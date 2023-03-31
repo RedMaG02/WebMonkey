@@ -1,7 +1,6 @@
 var date = document.getElementsByClassName("date")
 var time = document.getElementsByClassName("time")
 
-date.item(0).textContent = "date"
 
 
 
