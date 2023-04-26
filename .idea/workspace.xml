@@ -5,7 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d4ffd4a6-9ba7-467e-b299-f964c76116f5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/MainJSWeb/Web1/scripts/lab2scripts/Calendar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MainJSWeb/Web1/scripts/lab4scripts/ObjectAnimation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MainJSWeb/Web1/scripts/lab5scripts/List.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MainJSWeb/Web1/scripts/lab6scripts/Images.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MainJSWeb/Web1/scripts/lab7scripts/ListScript.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainJSWeb/Web1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/MainJSWeb/Web1/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MainJSWeb/Web1/scripts/lab1scripts/DateTimeScript.js" beforeDir="false" afterPath="$PROJECT_DIR$/MainJSWeb/Web1/scripts/lab1scripts/DateTimeScript.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MainJSWeb/Web1/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/MainJSWeb/Web1/style.css" afterDir="false" />
     </list>
@@ -25,20 +31,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/home/presidentofukraine/Документы/GitHub/WebMonkey",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/presidentofukraine/Документы/GitHub/WebMonkey&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -49,6 +56,8 @@
       <updated>1680207709564</updated>
       <workItem from="1680207718953" duration="40000" />
       <workItem from="1680269477529" duration="3296000" />
+      <workItem from="1681385814796" duration="4643000" />
+      <workItem from="1681392804763" duration="13364000" />
     </task>
     <servers />
   </component>

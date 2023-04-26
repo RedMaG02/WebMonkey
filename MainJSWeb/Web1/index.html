@@ -8,7 +8,7 @@
 
 </head>   
     <body>
-        <div class="header">
+        <div class="mainHeader">
             <div id="shadowBox">
             <h3 class="rainbow rainbow_text_animated">ВАРИАНТ №29</h3>
             </div>
@@ -17,7 +17,7 @@
             <div class="task-header  rainbow rainbow_text_animated ">1. Согласно варианту задания вывести на страницу дату/время.</div>
             <div class="task-content">
                 <div class="empty-block">
-                    <div class="date"></div>
+                    <div class="dateL"></div>
                     <div class="time"></div>
                 </div>
             </div>
@@ -28,10 +28,28 @@
         <div class="task rainbow-bg">
             <div class="task-header rainbow rainbow_text_animated">2. Доделать календарь</div>
             <div class="task-content">
-                <div>Содержимое задания 2</div>
+                <div class="empty-block">
+                    <div class="calendar">
+                        <div class="header">
+                            <button class="prev">&#10094;</button>
+                            <div class="month"></div>
+                            <button class="next">&#10095;</button>
+                        </div>
+                        <div class="weekdays">
+                            <div>Mon</div>
+                            <div>Tue</div>
+                            <div>Wed</div>
+                            <div>Thu</div>
+                            <div>Fri</div>
+                            <div>Sat</div>
+                            <div>Sun</div>
+                        </div>
+                        <div class="days"></div>
+                    </div>
+
+                </div>
             </div>
         </div>
-
 
 
         <div class="task rainbow-bg">
@@ -46,30 +64,66 @@
         <div class="task rainbow-bg">
             <div class="task-header rainbow rainbow_text_animated">4. Изменение объекта</div>
             <div class="task-content">
-                <div>Содержимое задания 4</div>
+                <div class="empty-block">
+                    <div class="scaleRotateWrapper">
+                        <div class="lab4button">нажать</div>
+                    <div class = "scaleRotate"></div>
+                    </div>
+                </div>
             </div>
         </div>
+
+        <script src="scripts/lab4scripts/ObjectAnimation.js"></script>
 
         <div class="task rainbow-bg">
             <div class="task-header rainbow rainbow_text_animated">5. Напишите скрипт для создания элемента согласно варианту</div>
             <div class="task-content">
-                <div>Содержимое задания 5</div>
+                <div><ul id="myList">
+                </ul></div>
             </div>
         </div>
+
+        <script src="scripts/lab5scripts/List.js"></script>
     
         <div class="task rainbow-bg">
             <div class="task-header rainbow rainbow_text_animated">6. Организовать обработку события, согласно действию по варианту:</div>
             <div class="task-content">
-                <div>Содержимое задания 6</div>
+                <div>
+                    <div class="image-container">
+                        <img src="images/lab6/1.jpg" alt="Image 1">
+                        <img src="images/lab6/2.jpg" alt="Image 2">
+                        <img src="images/lab6/3.jpeg" alt="Image 3">
+                    </div>
+                </div>
             </div>
         </div>
+
+        <script src="scripts/lab6scripts/Images.js"></script>
 
         <div class="task rainbow-bg">
             <div class="task-header rainbow rainbow_text_animated">7. Создайте меню, которое раскрывается/сворачивается при клике:</div>
             <div class="task-content">
-                <div>Содержимое задания 7</div>
+                <div>
+                    <div class="task">
+                    <div class="task-header"> <img src="images/lab7/pillTime.png"></div>
+                    <div class="task-content">
+                        <div><div id="container">
+                            <ul>
+                                <li><div class="inner-block"><img src="images/lab7/wife1.png"></div></li>
+                                <li><div class="inner-block"><img src="images/lab7/wife2.png"></div></li>
+                                <li><div class="inner-block"><img src="images/lab7/wife3.png"></div></li>
+                            </ul>
+                        </div>
+
+                            <div id="output" style="display: none;"><img src="images/lab7/whereismywife.png"></div>
+                        </div>
+                    </div>
+                </div>
+                    </div>
             </div>
         </div>
+
+        <script src="scripts/lab7scripts/ListScript.js"></script>
     
         <div class="task rainbow-bg">
             <div class="task-header rainbow rainbow_text_animated">8. Используя функцию setTimeout и статический фильтр alpha, создайте картинку, которая будет
@@ -104,6 +158,8 @@
               <a href="https://disk.yandex.ru/d/CCSfRCKr2xMALA" class="circle circle-4"></a>
             </div>
           </div>
+
+        <script src="scripts/lab2scripts/Calendar.js"></script>
 
         <script src="scripts/lab3scripts/GetDOMBlockScript.js"></script>
 

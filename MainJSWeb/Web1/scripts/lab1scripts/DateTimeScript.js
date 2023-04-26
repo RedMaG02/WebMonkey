@@ -1,4 +1,4 @@
-var date = document.getElementsByClassName("date")
+var date = document.getElementsByClassName("dateL")
 var time = document.getElementsByClassName("time")
 
 
