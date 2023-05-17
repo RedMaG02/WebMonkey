@@ -78,8 +78,36 @@
         <div class="task rainbow-bg">
             <div class="task-header rainbow rainbow_text_animated">5. Напишите скрипт для создания элемента согласно варианту</div>
             <div class="task-content">
-                <div><ul id="myList">
-                </ul></div>
+                <div id="Task5">
+                    <p>Таблица, удаляем снизу от клика</p>
+                    <table id="dynamicTable">
+                        <tr onclick="RemoveByIndex(this)" style="background-color: #1c87c9; color: #fff">
+                            <th>Ченибудь</th>
+
+                        </tr>
+                        <tr onclick="RemoveByIndex(this)" >
+                            <td>один</td>
+
+                        </tr>
+                        <tr onclick="RemoveByIndex(this)" >
+                            <td>два</td>
+
+                        </tr>
+                        <tr onclick="RemoveByIndex(this)" >
+                            <td>три</td>
+
+                        </tr>
+                        <tr onclick="RemoveByIndex(this)" >
+                            <td>люблю джаваскрипт</td>
+
+                        </tr>
+                        <tr onclick="RemoveByIndex(this)" >
+                            <td>кайф</td>
+                        </tr>
+                    </table>
+                    <button onclick="insertRow(this)">Вставить строку</button>
+                    <input type="number" id="input5" />
+                </div>
             </div>
         </div>
 

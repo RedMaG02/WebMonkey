@@ -386,7 +386,17 @@ li {
     display: none;
 }
 
+#dynamicTable {
+    width: 30%;
+    margin: 30px auto;
+    border-collapse: collapse;
+    background-color: white;
 
+}
+.rowTask5
+{
+    color: #ff3399;
+}
 
 
 
