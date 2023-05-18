@@ -533,6 +533,37 @@ option {
 }
 
 
+#game-container {
+    position: relative;
+    width: 1000px;
+    height: 800px;
+    border: 1px solid #ccc;
+    overflow: hidden;
+}
+#bird {
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    position: absolute;
+}
+
+#pipe {
+    width: 80px;
+    height: 300px;
+    background-color: green;
+    position: absolute;
+}
+
+#restart-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 10px;
+    background-color: #ccc;
+    cursor: pointer;
+}
+
+
 
 
   
