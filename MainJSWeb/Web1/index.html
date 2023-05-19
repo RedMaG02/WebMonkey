@@ -5,6 +5,8 @@
   <meta charset="utf-8" />
   <title></title>
   <link rel="stylesheet" href="style.css" />
+    <script src="scripts/jquery-3.7.0.js"></script>
+
 
 </head>   
     <body>
@@ -184,27 +186,35 @@
                     <form id="registrationForm">
                         <label for="name">Логин:</label>
                         <input type="text" id="name" required>
+                        <span class="error" id="nameError"></span>
                         <br>
                         <label for="fullName">ФИО:</label>
                         <input type="text" id="fullName" required>
+                        <span class="error" id="fullNameError"></span>
                         <br>
                         <label for="email">Email:</label>
                         <input type="email" id="email" required>
+                        <span class="error" id="emailError"></span>
                         <br>
                         <label for="phone">Телефон:</label>
                         <input type="text" id="phone" required>
+                        <span class="error" id="phoneError"></span>
                         <br>
                         <label for="password">Пароль:</label>
                         <input type="password" id="password" required>
+                        <span class="error" id="passwordError"></span>
                         <br>
                         <label for="confirmPassword">Подтвердите пароль:</label>
                         <input type="password" id="confirmPassword" required>
+                        <span class="error" id="confirmPasswordError"></span>
                         <br>
                         <label for="age">Возраст:</label>
                         <input type="number" id="age" required>
+                        <span class="error" id="ageError"></span>
                         <br>
                         <label for="city">Город:</label>
                         <input type="text" id="city" required>
+                        <span class="error" id="cityError"></span>
                         <br>
                         <label for="favoriteSubject">Любимый предмет:</label>
                         <select id="favoriteSubject" required>
@@ -214,16 +224,20 @@
                             <option value="ipis">ИПИС</option>
                             <option value="translator">Трансляторы</option>
                         </select>
+                        <span class="error" id="favoriteSubjectError"></span>
                         <br>
                         <label for="payment">Желаемая зарплата:</label>
                         <input type="number" id="payment" required>
+                        <span class="error" id="paymentError"></span>
                         <br>
                         <button type="submit">Зарегистрироваться</button>
                     </form>
                 </div>
             </div>
         </div>
-        <script src="scripts/lab10scripts/FormChecker.js"></script>
+        <!--<script src="scripts/lab10scripts/FormChecker.js"></script> -->
+        <script src="scripts/lab10scripts/JQueryFormChecker.js"></script>
+
 
         <div class="task rainbow-bg">
             <div class="task-header rainbow rainbow_text_animated">11. игра</div>
@@ -240,6 +254,7 @@
         </div>
         <script src="scripts/gameScripts/FlappyNyan.js"></script>
 
+
         <script src="scripts/MainScript.js"></script>
 
         <div class="circle-container">
@@ -250,7 +265,13 @@
               <a href="https://www.example.com" class="circle circle-3"></a>
               <a href="https://disk.yandex.ru/d/CCSfRCKr2xMALA" class="circle circle-4"></a>
             </div>
-          </div>
+        </div>
+
+        <div class="content">
+            <img src="images/Свидетель_из_Фрязино.png">
+        </div>
+
+        <script src="scripts/JQueryScroll.js"></script>
 
         <script src="scripts/lab2scripts/Calendar.js"></script>
 
