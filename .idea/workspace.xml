@@ -4,17 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d4ffd4a6-9ba7-467e-b299-f964c76116f5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/MainJSWeb/Web1/scripts/lab2scripts/Calendar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MainJSWeb/Web1/scripts/lab4scripts/ObjectAnimation.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MainJSWeb/Web1/scripts/lab5scripts/List.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MainJSWeb/Web1/scripts/lab6scripts/Images.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MainJSWeb/Web1/scripts/lab7scripts/ListScript.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MainJSWeb/Web1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/MainJSWeb/Web1/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MainJSWeb/Web1/scripts/lab1scripts/DateTimeScript.js" beforeDir="false" afterPath="$PROJECT_DIR$/MainJSWeb/Web1/scripts/lab1scripts/DateTimeScript.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MainJSWeb/Web1/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/MainJSWeb/Web1/style.css" afterDir="false" />
-    </list>
+    <list default="true" id="d4ffd4a6-9ba7-467e-b299-f964c76116f5" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -58,6 +48,7 @@
       <workItem from="1680269477529" duration="3296000" />
       <workItem from="1681385814796" duration="4643000" />
       <workItem from="1681392804763" duration="13364000" />
+      <workItem from="1683193356666" duration="129000" />
     </task>
     <servers />
   </component>
